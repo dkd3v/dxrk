@@ -30,14 +30,14 @@ hideDate = true
             </p>
             <h3 class="mt2" style="padding-top: 10px; padding-bottom: 0px">study</h3>
             <p>Прогресс обучения</p>
-            <h4 class="mt2">Октябрь 2024</h4>
+            <h4 class="mt2">October 2024</h4>
             <ul>
               <li class="mb0.5">
                 <a href="https://rs.school" target="_blank">RS School</a> &rsaquo; Начало курса по
                 Frontend разработке "JavaScript + React"
               </li>
             </ul>
-            <h4 class="mt2">Февраль 2022</h4>
+            <h4 class="mt2">February 2022</h4>
             <ul>
               <li class="mb0.5">
                 <a href="https://htmlacademy.ru/profession/frontender" target="_blank"
@@ -46,14 +46,14 @@ hideDate = true
                 &rsaquo; Начало курса по Frontend разработке
               </li>
             </ul>
-            <h4 class="mt2">Январь 2022</h4>
+            <h4 class="mt2">January 2022</h4>
             <ul>
               <li class="mb0.5">
                 <a href="https://synergy.ru" target="_blank">МФПУ Синергия</a> &rsaquo; Начало учебы
                 в Университете на факультете Кибербезопасности
               </li>
             </ul>
-            <h4 class="mt2">Октябрь 2021</h4>
+            <h4 class="mt2">October 2021</h4>
             <ul>
               <li>
                 <a href="https://www.udemy.com/course/javascript_full/" target="_blank">Udemy</a>
@@ -63,7 +63,7 @@ hideDate = true
             </ul>
             <h3 class="mt2" style="padding-top: 10px; padding-bottom: 0px">works</h3>
             <p>Список моих работ</p>
-            <h3 class="mt2" style="padding-top: 20px">Октябрь 2024</h3>
+            <h3 class="mt2" style="padding-top: 20px">October 2024</h3>
             <p>
               Landing Page с наушниками от Bedimcode 😊 на HTML, CSS + JavaScript с адаптивной
               версткой и анимацией на библиотеке SwiperJS.
@@ -77,7 +77,7 @@ hideDate = true
               👉 <a href="https://youtu.be/BIXsjKxPo8o" target="_blank">Источник</a>
             </p>
             <p>👉 <a href="../pf/lp4/" target="_blank">Моя верстка</a></p>
-            <h3 class="mt2" style="padding-top: 20px">Сентябрь 2024</h3>
+            <h3 class="mt2" style="padding-top: 20px">September 2024</h3>
             <p>
               Landing Page с кроссовками от Bedimcode 😊 на HTML, CSS + JavaScript с адаптивной
               версткой и анимацией на библиотеке SwiperJS.
@@ -94,7 +94,7 @@ hideDate = true
               >
             </p>
             <p>👉 <a href="../pf/lp3/" target="_blank">Моя верстка</a></p>
-            <h3 class="mt2" style="padding-top: 20px">Август 2024</h3>
+            <h3 class="mt2" style="padding-top: 20px">August 2024</h3>
             <p>
               Landing Page для пекарни от Bedimcode 😊 на HTML, CSS + JavaScript с адаптивной
               версткой и анимацией.
@@ -108,7 +108,7 @@ hideDate = true
               👉 <a href="https://www.youtube.com/watch?v=ngoug8NASoI" target="_blank">Источник</a>
             </p>
             <p>👉 <a href="../pf/lp2/" target="_blank">Моя верстка</a></p>
-            <h3 class="mt2" style="padding-top: 20px">Июнь 2024</h3>
+            <h3 class="mt2" style="padding-top: 20px">June 2024</h3>
             <p>
               Landing Page с одеждой от Bedimcode 😊 на HTML, CSS + JavaScript. Адаптивная версия
               под планшеты и мобильные устройства и слайдер на SwiperJS.
