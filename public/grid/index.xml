@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grid on Dxrkd3v</title>
+    <link>//localhost:1313/grid/</link>
+    <description>Recent content in Grid on Dxrkd3v</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <lastBuildDate>Sat, 12 Oct 2024 18:53:24 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/grid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grid начало</title>
+      <link>//localhost:1313/grid_nachalo/</link>
+      <pubDate>Sat, 12 Oct 2024 18:53:24 +0300</pubDate>
+      <guid>//localhost:1313/grid_nachalo/</guid>
+      <description>&lt;p&gt;&#xA;                            Лекция в HTMLAcademy про Grid&#xA;                        &lt;/p&gt;&#xA;                        &lt;p&gt;&#xA;                            Бокс - контейнер, &#xA;                            который относится к типу grid, &#xA;                            содержит дочерние элементы, &#xA;                            называемые грид-элементами. &#xA;                            Несмотря на то что грид-контейнер &#xA;                            выглядит как обычный блочный элемент &#xA;                            для других элементов, таких как основное &#xA;                            содержимое, грид-элементы внутри &#xA;                            него ведут себя по-другому. &#xA;                        &lt;/p&gt;&#xA;                        &lt;p&gt;Например, даже строчные элементы &#xA;                            начинают занимать всю доступную им область, &#xA;                            а внешние отступы у элементов в грид-контейнере &#xA;                            также ведут себя иначе.&#xA;                        &lt;/p&gt;&#xA;                        &lt;p&gt;&#xA;                            По умолчанию грид-контейнер &#xA;                            является одноколоночным. &#xA;                            Чтобы изменить это, необходимо &#xA;                            описать шаблон грид-контейнера. &#xA;                            Для этого используется &#xA;                            свойство grid-template-columns.&#xA;                        &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
