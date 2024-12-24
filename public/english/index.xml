@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>English on Dxrkd3v</title>
-    <link>//localhost:1313/english/</link>
+    <link>http://localhost:1313/english/</link>
     <description>Recent content in English on Dxrkd3v</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Sat, 09 Nov 2024 18:53:24 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/english/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linkin Park - A Place For My Head</title>
-      <link>//localhost:1313/linkin-park-a-place-for-my-head/</link>
+      <link>http://localhost:1313/linkin-park_a_place_for_my_head/</link>
       <pubDate>Sat, 09 Nov 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/linkin-park-a-place-for-my-head/</guid>
+      <guid>http://localhost:1313/linkin-park_a_place_for_my_head/</guid>
       <description>&lt;p&gt;&#xA;              &lt;!-- Добавим песню --&gt;&#xA;              &lt;iframe&#xA;                frameborder=&#34;0&#34;&#xA;                allow=&#34;clipboard-write&#34;&#xA;                style=&#34;width: 100%; height: 185px&#34;&#xA;                width=&#34;100%&#34;&#xA;                height=&#34;100px&#34;&#xA;                src=&#34;https://music.yandex.ru/iframe/track/178496/12360955&#34;&#xA;              &gt;&#xA;              &lt;/iframe&gt;&#xA;            &lt;/p&gt;&#xA;            &lt;h3&gt;[Verse:]&lt;/h3&gt;&#xA;            &lt;p&gt;I watch how the moon&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Я смотрю как луна&lt;/p&gt;&#xA;            &lt;p&gt;Sits in the sky on a dark night&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Сидит на небе в тёмной ночи&lt;/p&gt;&#xA;            &lt;p&gt;Shining with the light from the sun&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Сверкает светом отраженным от солнца&lt;/p&gt;&#xA;            &lt;p&gt;The sun doesn&#39;t give light to the moon&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Но солнце не даёт света луне&lt;/p&gt;&#xA;            &lt;p&gt;Assuming the moon&#39;s going to owe it one&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Предпологая, что луна теперь у него в долгу&lt;/p&gt;&#xA;            &lt;p&gt;It makes me think of how you act to me&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linkin Park - What I&#39;ve Done</title>
-      <link>//localhost:1313/linkin-park-what-ive-done/</link>
+      <link>http://localhost:1313/linkin_park_what_ive_done/</link>
       <pubDate>Fri, 01 Nov 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/linkin-park-what-ive-done/</guid>
+      <guid>http://localhost:1313/linkin_park_what_ive_done/</guid>
       <description>&lt;p&gt;&#xA;              &lt;!-- Добавим песню --&gt;&#xA;              &lt;iframe&#xA;                frameborder=&#34;0&#34;&#xA;                style=&#34;width: 100%; height: 185px&#34;&#xA;                width=&#34;100%&#34;&#xA;                height=&#34;100&#34;&#xA;                src=&#34;https://music.yandex.ru/iframe/track/170252/154525&#34;&#xA;              &gt;&#xA;              &lt;/iframe&gt;&#xA;            &lt;/p&gt;&#xA;            &lt;h3&gt;[Verse:]&lt;/h3&gt;&#xA;            &lt;p&gt;In this farewell&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;В этом прощании&lt;/p&gt;&#xA;            &lt;p&gt;There is no blood&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Без крови&lt;/p&gt;&#xA;            &lt;p&gt;There is no alibi&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Без оправданий&lt;/p&gt;&#xA;            &lt;p&gt;&#39;Cause I&#39;ve drawn regret&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Потому что я нарисовал сожаление&lt;/p&gt;&#xA;            &lt;p&gt;From the truth&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Из правды&lt;/p&gt;&#xA;            &lt;p&gt;Of a thousand lies&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Среди тысячи вранья&lt;/p&gt;&#xA;            &lt;p&gt;So let mercy come&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Чтож пусть наступит пощада&lt;/p&gt;&#xA;            &lt;p&gt;And wash away&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;И сотрёт&lt;/p&gt;&#xA;            &lt;h3&gt;[Chorus:]&lt;/h3&gt;&#xA;            &lt;p&gt;What I&#39;ve done&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Все что я натворил&lt;/p&gt;&#xA;            &lt;p&gt;I&#39;ll face myself&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Я с самим собой&lt;/p&gt;&#xA;            &lt;p&gt;To cross out&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Чтобы вычеркнуть&lt;/p&gt;&#xA;            &lt;p&gt;What I&#39;ve become&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linkin Park - With You</title>
-      <link>//localhost:1313/linkin-park-with-you/</link>
+      <link>http://localhost:1313/linkin_park_with_you/</link>
       <pubDate>Tue, 29 Oct 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/linkin-park-with-you/</guid>
+      <guid>http://localhost:1313/linkin_park_with_you/</guid>
       <description>&lt;p&gt;&#xA;              &lt;!-- Добавим песню --&gt;&#xA;              &lt;iframe&#xA;                frameborder=&#34;25px&#34;&#xA;                style=&#34;width: 100%; height: 185px&#34;&#xA;                width=&#34;100%&#34;&#xA;                height=&#34;100&#34;&#xA;                src=&#34;https://music.yandex.ru/iframe/track/178502/12360955&#34;&#xA;              &gt;&#xA;              &lt;/iframe&gt;&#xA;            &lt;/p&gt;&#xA;            &lt;h3&gt;[Verse:]&lt;/h3&gt;&#xA;            &lt;p&gt;I woke up in a dream today&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Я проснулся как во сне сегодня&lt;/p&gt;&#xA;            &lt;p&gt;To the cold of the static&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;В статический холод&lt;/p&gt;&#xA;            &lt;p&gt;And put my cold feet on the floor&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;И наступил холодными ногами на пол&lt;/p&gt;&#xA;            &lt;p&gt;Forgot all about yesterday&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Забыл обо всем, что было вчера&lt;/p&gt;&#xA;            &lt;p&gt;Remembering I&#39;m pretending to be where&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Вспоминая, притворяюсь что я там&lt;/p&gt;&#xA;            &lt;p&gt;I&#39;m not anymore&lt;/p&gt;&#xA;            &lt;p class=&#34;gray&#34;&gt;Но это ложь&lt;/p&gt;&#xA;            &lt;p&gt;A little taste of hypocrisy&lt;/p&gt;</description>
     </item>
   </channel>

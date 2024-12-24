@@ -1,4 +1,4 @@
-baseURL = 'dxrkd3v.ru'
+baseURL = 'https://dxrkd3v.ru'
 languageCode = 'ru'
 title = 'Dxrkd3v'
 
@@ -23,7 +23,8 @@ title = 'Dxrkd3v'
 
 
 [permalinks]
-  categories = "/:slug/"
+  categories   = "/:slug/"
+
 
 [taxonomies]
   category = "categories"

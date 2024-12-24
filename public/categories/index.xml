@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Dxrkd3v</title>
-    <link>//localhost:1313/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Dxrkd3v</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Sat, 14 Dec 2024 18:53:24 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Css</title>
-      <link>//localhost:1313/css/</link>
+      <link>http://localhost:1313/css/</link>
       <pubDate>Sat, 14 Dec 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/css/</guid>
+      <guid>http://localhost:1313/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Economy</title>
-      <link>//localhost:1313/economy/</link>
+      <link>http://localhost:1313/economy/</link>
       <pubDate>Wed, 11 Dec 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/economy/</guid>
+      <guid>http://localhost:1313/economy/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>//localhost:1313/html/</link>
+      <link>http://localhost:1313/html/</link>
       <pubDate>Wed, 27 Nov 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/html/</guid>
+      <guid>http://localhost:1313/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Flexbox</title>
-      <link>//localhost:1313/flexbox/</link>
+      <link>http://localhost:1313/flexbox/</link>
       <pubDate>Sat, 23 Nov 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/flexbox/</guid>
+      <guid>http://localhost:1313/flexbox/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>//localhost:1313/javascript/</link>
+      <link>http://localhost:1313/javascript/</link>
       <pubDate>Sat, 23 Nov 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/javascript/</guid>
+      <guid>http://localhost:1313/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>English</title>
-      <link>//localhost:1313/english/</link>
+      <link>http://localhost:1313/english/</link>
       <pubDate>Sat, 09 Nov 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/english/</guid>
+      <guid>http://localhost:1313/english/</guid>
       <description></description>
     </item>
     <item>
       <title>Grid</title>
-      <link>//localhost:1313/grid/</link>
+      <link>http://localhost:1313/grid/</link>
       <pubDate>Sat, 12 Oct 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/grid/</guid>
+      <guid>http://localhost:1313/grid/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>//localhost:1313/git/</link>
+      <link>http://localhost:1313/git/</link>
       <pubDate>Thu, 03 Oct 2024 18:53:24 +0300</pubDate>
-      <guid>//localhost:1313/git/</guid>
+      <guid>http://localhost:1313/git/</guid>
       <description></description>
     </item>
   </channel>
