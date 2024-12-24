@@ -4,6 +4,7 @@ draft = true
 date = '2024-12-01T18:53:24+03:00'
 title = "Сущность экономики"
 categories = [ "economy" ]
+slug = 'economy_science'
 +++
 
 <p>Экономика может рассматриваться в двух разных значениях:</p>

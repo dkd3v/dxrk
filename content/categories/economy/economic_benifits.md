@@ -4,6 +4,7 @@ draft = true
 date = '2024-12-02T18:53:24+03:00'
 title = "Экономические блага"
 categories = [ "economy" ]
+slug = 'economic_benifits'
 +++
 
 <p>Классификация благ в экономике</p>

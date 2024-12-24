@@ -4,6 +4,7 @@ draft = true
 date = '2024-12-02T18:53:24+03:00'
 title = "Экономические ресурсы"
 categories = [ "economy" ]
+slug = 'economic_resourses'
 +++
 
 <p>Для создания благ нужны экономические ресурсы.</p>

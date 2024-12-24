@@ -4,6 +4,7 @@ draft = true
 date = '2024-12-07T18:53:24+03:00'
 title = "Границы производственных возможностей"
 categories = [ "economy" ]
+slug = 'gpv'
 +++
 
 <p>

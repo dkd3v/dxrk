@@ -4,6 +4,7 @@ draft = true
 date = '2024-12-09T18:53:24+03:00'
 title = "Субъекты экономики"
 categories = [ "economy" ]
+slug = 'subject_of_economy'
 +++
 
 <p>
