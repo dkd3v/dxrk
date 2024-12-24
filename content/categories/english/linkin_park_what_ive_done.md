@@ -4,6 +4,7 @@ draft = true
 date = '2024-11-01T18:53:24+03:00'
 title = "Linkin Park - What I've Done"
 categories = [ "english" ]
+slug = 'linkin_park_what_ive_done'
 +++
 
 <p>
