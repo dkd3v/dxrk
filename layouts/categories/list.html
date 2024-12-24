@@ -11,7 +11,7 @@
   <ul>
       {{ range .Pages }}
           <li>
-              <time class="gray">{{ dateFormat "02" .Date }}</time> <a href="{{ .Permalink }}">{{ .Title }}</a>
+              <time class="gray">{{ dateFormat "02" .Date }}</time> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </li>
       {{ end }}
   </ul>
