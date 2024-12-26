@@ -3,10 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/css/</loc>
-    <lastmod>2024-12-14T18:53:24+03:00</lastmod>
+    <lastmod>2024-12-25T01:40:24+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-14T18:53:24+03:00</lastmod>
+    <lastmod>2024-12-25T01:40:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/flexbox/</loc>
+    <lastmod>2024-12-25T01:40:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/base_weight_flexbox3/</loc>
+    <lastmod>2024-12-25T01:40:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/base_weight_flexbox2/</loc>
+    <lastmod>2024-12-25T01:29:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/base_weight_flexbox/</loc>
+    <lastmod>2024-12-24T06:29:24+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/svoistvo_display_v_css/</loc>
     <lastmod>2024-12-14T18:53:24+03:00</lastmod>
@@ -58,9 +70,6 @@
   </url><url>
     <loc>http://localhost:1313/economy_entry/</loc>
     <lastmod>2024-11-24T18:53:24+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/flexbox/</loc>
-    <lastmod>2024-11-23T18:53:24+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/javascript/</loc>
     <lastmod>2024-11-23T18:53:24+03:00</lastmod>
