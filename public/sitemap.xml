@@ -2,11 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/css/</loc>
-    <lastmod>2024-12-25T01:40:24+03:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-12-28T21:53:24+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-25T01:40:24+03:00</lastmod>
+    <lastmod>2024-12-28T21:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tis/</loc>
+    <lastmod>2024-12-28T21:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/etapy_razvitiya_informatsionnyh_system/</loc>
+    <lastmod>2024-12-28T21:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sposoby_isucheniya_informatsionnoy_systemy/</loc>
+    <lastmod>2024-12-28T20:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ponatiya_svyazannye_s_sistemoy/</loc>
+    <lastmod>2024-12-28T19:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ponatiya_informatsionnyh_system/</loc>
+    <lastmod>2024-12-28T18:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/css/</loc>
+    <lastmod>2024-12-26T18:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/grid/</loc>
+    <lastmod>2024-12-26T18:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/grid_microsetki/</loc>
+    <lastmod>2024-12-26T18:53:24+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/flexbox/</loc>
     <lastmod>2024-12-25T01:40:24+03:00</lastmod>
@@ -28,9 +52,6 @@
   </url><url>
     <loc>http://localhost:1313/links/</loc>
     <lastmod>2024-12-12T18:53:24+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-12-11T18:53:24+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/economy/</loc>
     <lastmod>2024-12-11T18:53:24+03:00</lastmod>
@@ -127,9 +148,6 @@
   </url><url>
     <loc>http://localhost:1313/flexbox_nachlo/</loc>
     <lastmod>2024-10-13T18:53:24+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/grid/</loc>
-    <lastmod>2024-10-12T18:53:24+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/grid_nachalo/</loc>
     <lastmod>2024-10-12T18:53:24+03:00</lastmod>
