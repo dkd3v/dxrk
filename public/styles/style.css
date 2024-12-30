@@ -16,6 +16,9 @@
     padding: 2px;
     margin: 1px;
 }
+.logos {
+    vertical-align: middle;
+}
 
 a,
 abbr,

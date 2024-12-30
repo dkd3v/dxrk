@@ -1,0 +1,6 @@
++++
+hidden = true
+date = '2024-12-30T18:53:24+03:00'
+title = 'Vim - Keybindings'
+draft = true  #вкл/выкл отоброжение
++++
