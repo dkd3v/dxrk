@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 30 Dec 2024 18:53:24 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git - команды</title>
+      <title>Git - основные команды для контроля версий</title>
       <link>http://localhost:1313/git/</link>
       <pubDate>Mon, 30 Dec 2024 18:53:24 +0300</pubDate>
       <guid>http://localhost:1313/git/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;&#xA;&lt;p&gt;Git — это система управления версиями, позволяет отслеживать изменения в исходном коде. Она позволяет создавать коммиты проекта, ветвления и слияния изменений. Тут основные тезисы и команды для работы с гитом из учебника.&lt;/p&gt;&#xA;&lt;p&gt;Установка Git в Linux&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;apt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;get&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;git&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;После установки, проверяем версию&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;version&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Ответ &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;version&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;2.43&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Конфиг лежит в файле ~/.gitconfig Сюда Git запишет настройки, например алиасы, ник пользователя, объем буфера и прочее.&lt;/p&gt;&#xA;&lt;p&gt;В новой системе после установки укажем пользователя и почту. Эту инфу Git будет включать в коммиты.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linkin Park - In The End</title>
