@@ -4,7 +4,7 @@
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git - основные команды для контроля версий</title>
+    <title>Git</title>
     <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
@@ -38,41 +38,25 @@
       </div>
 </nav>
         
+<h2>Git</h2>
+
+
+
 <div class="list">
-   <div class="singleHead">
-    <div class="sinleHeadTexts">
-        
-
-        
-
-        <div><h2 id="git">Git</h2>
-<p>Git — это система управления версиями, позволяет отслеживать изменения в исходном коде. Она позволяет создавать коммиты проекта, ветвления и слияния изменений. Тут основные тезисы и команды для работы с гитом из учебника.</p>
-<p>Установка Git в Linux</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">sudo</span> <span class="nx">apt</span><span class="o">-</span><span class="nx">get</span> <span class="nx">install</span> <span class="nx">git</span>
-</span></span></code></pre></div><p>После установки, проверяем версию</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">git</span> <span class="o">--</span><span class="nx">version</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// Ответ 
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">git</span> <span class="nx">version</span> <span class="mf">2.43</span><span class="p">.</span><span class="mi">0</span>
-</span></span></code></pre></div><p>Конфиг лежит в файле ~/.gitconfig Сюда Git запишет настройки, например алиасы, ник пользователя, объем буфера и прочее.</p>
-<p>В новой системе после установки укажем пользователя и почту. Эту инфу Git будет включать в коммиты.</p>
-<pre tabindex="0"><code>git config --global user.name &#34;Dxrkd3v&#34; &lt;-- Имя пользователя
-git config --global user.email &#34;dxrkd3v@mail.com&#34; &lt;-- Email пользователя
-</code></pre><p>Ключ <code>--global</code> указывает что эти данные будут использоваться для всех файлов в системе.</p>
-<p>Посмотеть изминения в файле <code>~/.gitconfig</code> можно через ключ <code>--list</code> например</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">git</span> <span class="nx">config</span> <span class="o">--</span><span class="nx">list</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// ответ
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">user</span><span class="p">.</span><span class="nx">name</span><span class="o">=</span><span class="nx">Dxrkd3v</span>
-</span></span><span class="line"><span class="cl"><span class="nx">user</span><span class="p">.</span><span class="nx">email</span><span class="o">=</span><span class="nx">dxrkd3v</span><span class="err">@</span><span class="nx">mail</span><span class="p">.</span><span class="nx">com</span>
-</span></span></code></pre></div><p>Чтобы начать работу с Git нужно его проинициализировать командой находясь в директории.</p>
-<pre tabindex="0"><code>git init
-</code></pre><p>Эта команда создаст пустую папку с расширением <code>.git</code> в вашем проекте.</p>
-<p>Чтобы начать управлять изминениями файлов нужно добавить их в стейдж или индекс командой <code>git add .</code> она добавит все файлы в стейдж, либо после <code>git add</code> прописать нужные файлы вручную, например:</p>
-<pre tabindex="0"><code>git add index.html
-</code></pre><p>и после этого можно делать коммит, то есть сохранение состояния</p>
-<pre tabindex="0"><code>git commit -m &#34;text of your commit&#34;
-</code></pre></div>
-    </div>
-   </div>
+  
+  <h3>October 2024</h3> 
+  <ul>
+      
+          <li>
+              <time class="gray">03</time> <a href="/pervichnaya_nastroika_git/">Первичная настройка Git</a>
+          </li>
+      
+          <li>
+              <time class="gray">03</time> <a href="/git_branches/">Команды для веток в GIT</a>
+          </li>
+      
+  </ul>
+  
 </div>
  
         

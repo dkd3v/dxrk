@@ -47,13 +47,13 @@ hideDate = true
 Полезные ссылки
 </p>
 <p>
-📌 <a href="/git">Git</a> &rsaquo; Git Commands
+📌 <a href="/gitbook/">Git</a> &rsaquo; Git Commands
 </p>
 <p>
-📌 <a href="/vim">Vim</a> &rsaquo; Vim Keybindings
+📌 <a href="/vim/">Vim</a> &rsaquo; Vim Keybindings
 </p>
 <p>
-📌 <a href="/linux">Linux</a> &rsaquo; Linux Commands
+📌 <a href="/linux/">Linux</a> &rsaquo; Linux Commands
 </p>
 <p>
 <a href="https://mastery.games/flexboxzombies/" target="_blank">FlexboxZombies</a> &rsaquo; Игра по Флексам
