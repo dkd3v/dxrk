@@ -57,7 +57,41 @@
 <p>Не придется убирать руки с клавиатуры или
 возиться с многоуровневыми меню! Большинство команд можно запомнить по
 первым буквам, отражающим их названия на английском языке. Почти все команды
-следуют этому принципу и связаны друг с другом</p>
+следуют этому принципу и связаны друг с другом.</p>
+<h4 id="открытие-файла-из-командной-строки">Открытие файла из командной строки</h4>
+<p>vim — это команда Unix, которая вызывает редактор Vim для обработки имеющегося
+или совершенно нового файла. Синтаксис команды vim выглядит так:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">vim index.html
+</span></span></code></pre></div><p>Также нужно иметь в виду, что следует нажать
+клавишу <code>Enter</code>, чтобы сообщить командной оболочке о завершении выполнения
+команды.</p>
+<p>Если нужно создать и тут же открыть новый файл, следует придумать ему имя и ввести его с помощью команды vi.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">vim style.css
+</span></span></code></pre></div><p>Можно отредактировать любой существующий текстовый файл в
+каталоге, указав его имя. Например:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">ls
+</span></span><span class="line"><span class="cl">index.html style.css main.js
+</span></span><span class="line"><span class="cl">vim index.html
+</span></span></code></pre></div><h4 id="сохранение-и-закрытие-файла">Сохранение и закрытие файла</h4>
+<p>Чтобы в любой момент прекратить работу с файлом, сохранить внесенные
+изменения и вернуться в командную строку нужно набрать <code>ZZ</code> прописными
+буквами.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">:w <span class="p">&lt;</span><span class="nt">--</span>  <span class="na">сохранить</span> <span class="na">файл</span> <span class="na">не</span> <span class="na">закрывая</span> <span class="na">его</span>
+</span></span><span class="line"><span class="cl"><span class="na">:q</span> <span class="err">&lt;</span><span class="na">--</span>  <span class="na">выйти</span><span class="err">,</span> <span class="na">если</span> <span class="na">не</span> <span class="na">было</span> <span class="na">изминений</span> <span class="na">в</span> <span class="na">файле</span>
+</span></span><span class="line"><span class="cl"><span class="na">:wq</span> <span class="err">&lt;</span><span class="na">--</span>  <span class="na">сохранить</span> <span class="na">изминения</span> <span class="na">и</span> <span class="na">выйти</span> 
+</span></span><span class="line"><span class="cl"><span class="na">ZZ</span> <span class="err">&lt;==</span><span class="p">&gt;</span> :wq  <span class="p">&lt;</span><span class="nt">--</span> <span class="na">эквивалентные</span> <span class="na">команды</span> 
+</span></span></code></pre></div><h4 id="закрытие-файла-без-сохранения-изменений">Закрытие файла без сохранения изменений</h4>
+<p>Если нужно стереть все изменения, внесенные во время сеанса работы,
+а затем снова открыть исходный файл, то поможет команда:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">:e! + Enter  
+</span></span></code></pre></div><p>Откроется последняя сохраненная версия файла, тем самым позволив начать
+все заново.</p>
+<p>Если не нужно сохранить изминения и сразу выйти:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">:q! + Enter
+</span></span></code></pre></div><p>Данные команды откатывают назад все изменения, внесенные в буфер с момента
+последнего сохранения файла. Редактор обычно не позволяет удалять изменения.
+Восклицательный знак, добавленный к команде :e или :q, снимает этот запрет,
+и программа выполняет операцию, даже если содержимое буфера было изменено.</p>
 </div>
     </div>
    </div>

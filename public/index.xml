@@ -34,7 +34,7 @@
       <link>http://localhost:1313/vim/</link>
       <pubDate>Mon, 30 Dec 2024 18:53:24 +0300</pubDate>
       <guid>http://localhost:1313/vim/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;vim&#34;&gt;Vim&lt;/h3&gt;&#xA;&lt;p&gt;Vim — это текстовый редактор известный своей эффективностью и гибкостью. Он поддерживает множество плагинов и настроек что&#xA;позволяет превратить его в полноценную IDE. Vim + слепая печать, ускоряют навигацию и редактирование, освоив которые разработка становится быстрее и удобнее в разы.&lt;/p&gt;&#xA;&lt;h4 id=&#34;редактирование-текста&#34;&gt;Редактирование текста&lt;/h4&gt;&#xA;&lt;p&gt;Для основных команд используются один или два символа:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;i - ввод &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cw - изменить слово&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Используя буквы в качестве команд, можно очень быстро редактировать файл.&#xA;Не нужно запоминать сотни горячих клавиш или тянуться пальцами до клавиш.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Этапы развития информационных систем</title>
