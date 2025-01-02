@@ -211,9 +211,8 @@ th {
     border: 1px solid #e1e3e4;
     padding: 0.25rem 0.5rem;
 }
-tr:nth-child(even) {
-    background: rgba(225,227,228,.3);
-}
+
+
 p {
     margin-top: 0;
     margin-bottom: 16px;
