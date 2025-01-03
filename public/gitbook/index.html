@@ -331,10 +331,6 @@ oneline выводит каждый коммит в одну строку, чт�
           <td><code>git log --follow &lt;файл&gt;</code></td>
           <td>Показывает историю файла, включая переименования.</td>
       </tr>
-      <tr>
-          <td><br /></td>
-          <td></td>
-      </tr>
   </tbody>
 </table>
 <h4 id="отмена-изминений">Отмена изминений</h4>
@@ -342,14 +338,18 @@ oneline выводит каждый коммит в одну строку, чт�
 менений, когда вы забыли добавить в коммит какие-то файлы или ошиблись с со-
 общением фиксации. Для повторного сохранения версии в такой ситуации можно
 воспользоваться параметром &ndash;amend</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">it commit –amend
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git commit –amend
 </span></span></code></pre></div><p>В итоге останется единственный коммит — второй коммит заменит результат
 первого.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git commit -m &#39;изначальный коммит&#39;
 </span></span><span class="line"><span class="cl">git add index.html
 </span></span><span class="line"><span class="cl">git commit --amend
 </span></span></code></pre></div><h4 id="отмена-индексирования">Отмена индексирования</h4>
-</div>
+<p>Для отмены индексирования существует команда <code>reset</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git reset HEAD index.html
+</span></span><span class="line"><span class="cl">    modified: index.html
+</span></span><span class="line"><span class="cl">// теперь файл показывается как просто измененный 
+</span></span></code></pre></div></div>
     </div>
    </div>
 </div>
