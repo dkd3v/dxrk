@@ -346,10 +346,82 @@ oneline выводит каждый коммит в одну строку, чт�
 </span></span><span class="line"><span class="cl">git commit --amend
 </span></span></code></pre></div><h4 id="отмена-индексирования">Отмена индексирования</h4>
 <p>Для отмены индексирования существует команда <code>reset</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git reset HEAD index.html
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">git reset HEAD index.html
 </span></span><span class="line"><span class="cl">    modified: index.html
 </span></span><span class="line"><span class="cl">// теперь файл показывается как просто измененный 
-</span></span></code></pre></div></div>
+</span></span></code></pre></div><h4 id="отмена-внесенных-в-файл-изменений">Отмена внесенных в файл изменений</h4>
+<p>Быстро отменить изминения и вернуть файл в состояние,
+в котором он находился до последней фиксации
+поможет <code>git checkout</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git checkout -- index.html
+</span></span></code></pre></div><p>Команда отменяет все изминения.</p>
+<h4 id="отображение-удаленных-репозиториев">Отображение удаленных репозиториев</h4>
+<p>Просмотр уже настроенных удаленных серверов осуществляется
+командой <code>git remote</code></p>
+<p>Параметр <code>-v</code> позволяет увидеть URL-адреса, которые хранить Git.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git remote -v
+</span></span><span class="line"><span class="cl">Origin https://github.com/dxrkd3v/blog (fetch)
+</span></span><span class="line"><span class="cl">Origin https://github.com/dxrkd3v/blog (push)
+</span></span></code></pre></div><h4 id="добавление-удаленных-репозиториев">Добавление удаленных репозиториев</h4>
+<p>Чтобы добавить репозиторий под коротким именем, которое упростит дальнейшие обращения к
+нему, используют команду <br /> <code>git remote add [сокращенное имя] [url]</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git remote add dxrk https://github.com/dkd3v/blog
+</span></span><span class="line"><span class="cl">git remote -v
+</span></span><span class="line"><span class="cl">origin https://github.com/dxrkd3v/blog (fetch)
+</span></span><span class="line"><span class="cl">origin https://github.com/dxrkd3v/blog (push)
+</span></span><span class="line"><span class="cl">dxrk https://github.com/dkd3v/blog (fetch)
+</span></span><span class="line"><span class="cl">dxrk https://github.com/dkd3v/blog (push)
+</span></span></code></pre></div><p>Теперь вместо полного URL-адреса в командную строку можно вводить имя dxrk.
+К примеру, для скачивания всей инфы нужно набрать <code>git fetch dxrk</code></p>
+<h4 id="удаление-и-переименование-удаленных-репозиториев">Удаление и переименование удаленных репозиториев</h4>
+<p>Переименование ссылок осуществляется командой <code>git remote rename</code>,
+меняющей сокращенные имена удаленных репозиториев.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git remote rename dxrk dark
+</span></span><span class="line"><span class="cl">git remote 
+</span></span><span class="line"><span class="cl">origin
+</span></span><span class="line"><span class="cl">dark
+</span></span></code></pre></div><p>Удалить ссылку на удаленный репозиторий</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git remote rm dark
+</span></span><span class="line"><span class="cl">git remote
+</span></span><span class="line"><span class="cl">origin
+</span></span></code></pre></div><h3 id="теги">Теги</h3>
+<p>Создать в Git тег, снабженный комментарием
+поможет параметр <code>-a</code> к команде <code>tag</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git tag -a v1.2 -m &#34;моя версия 1.2&#34;
+</span></span><span class="line"><span class="cl">git tag
+</span></span><span class="line"><span class="cl">v1.2
+</span></span></code></pre></div><p>В примере параметр <code>-m</code> позволяет добавить комментарий.</p>
+<p>Для просмотра данных тега вместе с помеченным им
+коммитом служит команда <code>git show</code></p>
+<p>Перед информацией о коммите выводятся данные человека,
+поставившего тег, дата пометки коммита и текст комментария.</p>
+<p>Тегами можно помечать и сделанные ранее коммиты. Предположим, что история
+зафиксированных состояний выглядит так:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git log --pretty=oneline
+</span></span><span class="line"><span class="cl">9fceb02...61af8 bug fixed
+</span></span><span class="line"><span class="cl">964f16d...4abbc second commit
+</span></span><span class="line"><span class="cl">8a5cbc4...2908a first commit
+</span></span></code></pre></div><p>Чтобы поставить тег на коммит сделанный ранее
+нужно в конце команды указать хеш коммита или первую часть хеша</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git tag -a v1.2 9fceb02
+</span></span></code></pre></div><p>Проверим наличие тега</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git tag
+</span></span><span class="line"><span class="cl">v1.2
+</span></span><span class="line"><span class="cl">git show v1.2
+</span></span><span class="line"><span class="cl">// выведет имя автора тега с почтой
+</span></span><span class="line"><span class="cl">// и датой + сам коммит
+</span></span></code></pre></div><h4 id="push-тегов">push тегов</h4>
+<p>Созданные теги отправляются на сервер отдельной командой <br /> <code>git push origin [имя  тега]</code></p>
+<p>Если нужно запушить все теги, ставят флаг <code>--tags</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git push origin --tags
+</span></span></code></pre></div><h4 id="псевдонимы-или-aliases">Псевдонимы или aliases</h4>
+<p>Команда <code>git config</code> позволяет легко создать псевдоним для любой команды.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">git config --global alias.a &#39;add .&#39;
+</span></span><span class="line"><span class="cl">git config --global alias.c commit
+</span></span><span class="line"><span class="cl">git config --global alias.s status
+</span></span></code></pre></div><p>Теперь можно набирать <code>git s</code> вместо <code>git status</code> и так далее.</p>
+<h3 id="ветки-в-git">Ветки в Git</h3>
+</div>
     </div>
    </div>
 </div>
