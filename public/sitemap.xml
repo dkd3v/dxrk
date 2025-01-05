@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-12-30T18:53:24+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-04T18:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/vim/</loc>
+    <lastmod>2025-01-04T18:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/vimtutor/</loc>
+    <lastmod>2025-01-04T18:53:24+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-12-30T18:53:24+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/english/</loc>
